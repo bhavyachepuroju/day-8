@@ -1,0 +1,121 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body {
+  width:100% ;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+  margin:0;
+  padding: 20px;
+}
+
+.Resume {
+  background: white;
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+  border-left: 4px solid #00b4d8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.first h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+  color: #222;
+}
+
+.protitle {
+  color: #00b4d8;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.contact a {
+  display: inline-block;
+  color: #444;
+  font-size: 14px;
+  margin-right: 15px;
+  margin-top: 5px;
+  text-decoration: none;
+}
+
+.sep {
+  height: 1px;
+  background-color: #ddd;
+  margin: 15px 0;
+}
+
+.title-con {
+  margin-top: 25px;
+}
+
+.title {
+  font-size: 13px;
+  font-weight: bold;
+  color:#444;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 4px;
+  display: inline-block;
+}
+
+p, li {
+  color: #000;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.main {
+  margin-bottom: 25px;
+}
+
+.third {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left h4 {
+  color: #00b4d8;
+  font-size: 16px;
+  margin: 0;
+}
+
+.right button {
+  background-color: #f0f0f0;
+  color: #333;
+  border: none;
+  padding: 4px 12px;
+  font-size: 12px;
+  border-radius: 15px;
+}
+
+.content {
+  margin-top: 8px;
+}
+
+.border {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.skills {
+  margin-top: 15px;
+}
+
+.last {
+  background-color: #eaf9fd;
+  color: #007ea7;
+  border: 1px solid #00b4d8;
+  border-radius: 15px;
+  padding: 5px 12px;
+  margin: 5px 5px 0 0;
+  font-size: 13px;
+}
